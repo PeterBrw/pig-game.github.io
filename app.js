@@ -81,6 +81,7 @@ function nextPlayer() {
 document.querySelector('.btn-new').addEventListener('click', init);
 
 function init() {
+  console.log('netlify a/b test')
   scores = [0, 0];
   activePlayer = 0;
   roundScore = 0;
